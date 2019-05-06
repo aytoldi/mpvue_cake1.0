@@ -1,41 +1,37 @@
 <template>
   <div class="page">
-    <CardHeader></CardHeader>
+    <!-- 		<MainHeader></MainHeader> -->
+    <div class="header">
+      <Mainheader></Mainheader>
+    </div>
     <div class="swiper-layout">
       <Swiper :images="images"></Swiper>
     </div>
-    <CardNav></CardNav>
-    <div class="bar">
-      <CardNavBar></CardNavBar>
+    <div class="nav_title">
+      <Navtitle></Navtitle>
+    </div>
+    <div class="nav_list">
+      <Navlist></Navlist>
     </div>
     <div class="product">
-      <CarTitle :title="newProductTitle"></CarTitle>
-      <CarList :product="newProductList"></CarList>
+      <ProductTitle :title="newProductTitle"></ProductTitle>
+      <Product :product="newProductList"></Product>
     </div>
     <div class="product">
-      <CarTitle :title="publicTitle"></CarTitle>
-      <CarList :product="publicProductList"></CarList>
+      <ProductTitle :title="publicTitle"></ProductTitle>
+      <Product :product="publicProductList"></Product>
     </div>
   </div>
 </template>
 <script>
-import CardHeader from "@/components/header";
+import Mainheader from "@/components/header";
 import Swiper from "@/components/swiper";
-import CardNav from "@/components/home/nav.vue";
-import CardNavBar from "@/components/home/navbar.vue";
-import CarTitle from "@/components/title";
-import CarList from "@/components/list/newProduct";
+import Navtitle from "@/components/nav_title";
+import Navlist from "@/components/nav_list";
+import ProductTitle from "@/components/product_title";
+import Product from "@/components/product";
 import service from "@/utils/service.js";
-
 export default {
-  components: {
-    CardHeader,
-    Swiper,
-    CardNav,
-    CardNavBar,
-    CarTitle,
-    CarList
-  },
   data() {
     return {
       images: [],
@@ -45,8 +41,16 @@ export default {
       publicTitle: "人气"
     };
   },
+  components: {
+    Mainheader,
+    Swiper,
+    Navtitle,
+    Navlist,
+    ProductTitle,
+    Product
+  },
   methods: {
-    initData() {
+    initSwiper() {
       service.swiper().then(res => {
         this.images = res.data.list;
       });
@@ -63,31 +67,24 @@ export default {
     }
   },
   mounted() {
-    this.initData();
+    this.initSwiper();
     this.initnewProduct();
     this.initPublicProduct();
   }
 };
 </script>
 
-
 <style lang="less" scoped>
-.page {
-  background: #fff;
-}
-
 .swiper-layout {
   margin-bottom: 24rpx;
 }
 
-.bar {
+.nav_list {
   margin-bottom: 30rpx;
 }
-
 .product {
   width: 100%;
   padding: 0 40rpx;
   box-sizing: border-box;
 }
 </style>
-

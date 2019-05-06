@@ -10,6 +10,15 @@ const service = {
   },
   publicProduct() {
     return requestAll.get(apiUrl.publicProduct);
+  },
+  cart() {
+    return requestAll.get(apiUrl.cart);
+  },
+  detail(params) {
+    return requestAll.get(apiUrl.detail, params);
+  },
+  login(params) {
+    return requestAll.post(apiUrl.login, params);
   }
 }
 

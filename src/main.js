@@ -1,15 +1,15 @@
 import Vue from 'vue'
+import Vuex from 'vuex'
+Vue.use(Vuex);
+import store from './vuex'
 import App from './App'
-import './css/app.css'
-import "./css/transfonter/stylesheet.css"
-import fly from './utils/fly'
-import '../static/weui/weui.css'
-
-Vue.prototype.$fly = fly;
-Vue.config.productionTip = false;
-App.mpType = 'app';
-
+import "../static/css/transfonter/stylesheet.css"
+Vue.config.productionTip = false
+App.mpType = 'app'
+// 原型上插入vuex
+Vue.prototype.$store = store
 const app = new Vue({
-  App
+  ...App,
+  store
 })
-app.$mount();
+app.$mount()

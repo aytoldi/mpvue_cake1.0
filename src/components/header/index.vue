@@ -11,7 +11,7 @@
       <input type="text">
     </div>
     <div class="user">
-      <span class="icon icon-user-o"></span>
+      <span class="icon icon-shopping-cart1" @click="cartHandle"></span>
     </div>
   </div>
 </template>
@@ -19,6 +19,12 @@
 export default {
   data() {
     return {};
+  },
+  methods: {
+    cartHandle() {
+      let setUrl = "../../pages/cart/main";
+      mpvue.navigateTo({ url: setUrl });
+    }
   }
 };
 </script>

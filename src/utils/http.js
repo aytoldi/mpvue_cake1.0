@@ -5,11 +5,10 @@ import qs from 'qs'
 import fly from './fly'
 
 function get(url, param) {
+  console.log(param, 22)
   return new Promise((resolve, reject) => {
     fly
-      .get(url, {
-        params: param
-      })
+      .get(url, param)
       .then(res => {
         resolve(res)
       })

@@ -1,31 +1,44 @@
 {
-  "name": "mpvue-weui",
-  "version": "1.0.6",
-  "description": "用 vue 写小程序，使用 mpvue 框架重写 WeUI。",
-  "author": "kuangpengfei <kuangpf1995@gmail.com>",
-  "private": false,
+  "name": "my-cake",
+  "version": "1.0.0",
+  "mpvueTemplateProjectVersion": "0.1.0",
+  "description": "A Mpvue project",
+  "author": "maqan <qaytix@163.com>",
+  "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "dev:wx": "node build/dev-server.js wx",
+    "start:wx": "npm run dev:wx",
+    "build:wx": "node build/build.js wx",
+    "dev:swan": "node build/dev-server.js swan",
+    "start:swan": "npm run dev:swan",
+    "build:swan": "node build/build.js swan",
+    "dev:tt": "node build/dev-server.js tt",
+    "start:tt": "npm run dev:tt",
+    "build:tt": "node build/build.js tt",
+    "dev:my": "node build/dev-server.js my",
+    "start:my": "npm run dev:my",
+    "build:my": "node build/build.js my",
+    "dev": "node build/dev-server.js wx",
+    "start": "npm run dev",
+    "build": "node build/build.js wx"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "dgram": "^1.0.1",
-    "flyio": "^0.5.4",
+    "es6-promise": "^4.2.6",
+    "flyio": "^0.6.14",
     "less": "^3.9.0",
-    "less-loader": "^4.1.0",
-    "mpvue": "2.0.5",
+    "less-loader": "^5.0.0",
+    "mpvue": "^2.0.0",
+    "mpvue-lint": "^1.0.72",
     "package.json": "^2.0.1",
     "qs": "^6.7.0",
     "style-loader": "^0.23.1",
-    "vuex": "^2.3.1"
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
-    "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-runtime": "^6.22.0",
     "babel-preset-env": "^1.3.2",
@@ -36,15 +49,6 @@
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
     "cssnano": "^3.10.0",
-    "eslint": "^4.19.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-html": "^4.0.3",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^3.0.1",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^3.0.2",
@@ -53,9 +57,10 @@
     "glob": "^7.1.2",
     "html-webpack-plugin": "^3.2.0",
     "http-proxy-middleware": "^0.18.0",
-    "mpvue-loader": "2.0.1",
-    "mpvue-template-compiler": "2.0.5",
-    "mpvue-webpack-target": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "mpvue-loader": "^2.0.0",
+    "mpvue-template-compiler": "^2.0.0",
+    "mpvue-webpack-target": "^1.0.3",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^2.0.0",
     "portfinder": "^1.0.13",
@@ -74,19 +79,16 @@
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware-hard-disk": "^1.12.0",
     "webpack-merge": "^4.1.0",
-    "webpack-mpvue-asset-plugin": "^0.1.0"
+    "webpack-mpvue-asset-plugin": "^2.0.0",
+    "webpack-mpvue-vendor-plugin": "^2.0.0"
   },
   "engines": {
-    "node": ">= 8.9",
+    "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/mpvue-weui"
-  }
+  ]
 }

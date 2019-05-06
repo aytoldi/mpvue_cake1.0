@@ -17,10 +17,5 @@ module.exports = {
     img: 'src',
     image: 'xlink:href'
   },
-  fileExt: {
-    template: 'wxml',
-    script: 'js',
-    style: 'wxss',
-    platform: 'wx'
-  }
+  fileExt: config.build.fileExt
 }

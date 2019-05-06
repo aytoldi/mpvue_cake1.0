@@ -38,7 +38,7 @@ export default {
       indicatorDots: true,
       autoplay: true,
       interval: 5000,
-      duration: 900,
+      duration: 300,
       circular: true
     };
   }
