@@ -1,0 +1,9 @@
+<template name="5e5707b5">
+  <swiper class="_swiper data-v-784edcb5 swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:key="index" key="{{index}}" wx:for="{{images}}" wx:for-index="index" wx:for-item="item">
+      <swiper-item class="_swiper-item data-v-784edcb5">
+        <image class="_img data-v-784edcb5 slide-image" src="{{item.url}}" mode="widthFix" alt></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</template>

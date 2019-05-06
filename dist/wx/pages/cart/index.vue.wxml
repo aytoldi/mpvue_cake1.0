@@ -1,0 +1,10 @@
+<import src="/components/cart_item/index.vue.wxml" /><template name="5907c03d">
+  <view class="_div data-v-8916f286"><template bindplus="handleProxy" bindminus="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="5722f9d1"></template>
+    <view class="_div data-v-8916f286 foo">
+      <view class="_ul data-v-8916f286">
+        <view class="_li data-v-8916f286 left"><label class="_span data-v-8916f286 title">合计</label> <label class="_span data-v-8916f286 price">{{result}}</label></view>
+        <view class="_li data-v-8916f286 right"><label class="_span data-v-8916f286">去结算</label></view>
+      </view>
+    </view>
+  </view>
+</template>

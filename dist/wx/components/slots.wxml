@@ -1,0 +1,9 @@
+<import src="/components/card.vue.wxml" />
+<import src="/components/swiper/index.vue.wxml" />
+<import src="/components/cart_item/index.vue.wxml" />
+<import src="/components/header/index.vue.wxml" />
+<import src="/components/swiper/index.vue.wxml" />
+<import src="/components/nav_title/index.vue.wxml" />
+<import src="/components/nav_list/index.vue.wxml" />
+<import src="/components/product_title/index.vue.wxml" />
+<import src="/components/product/index.vue.wxml" />

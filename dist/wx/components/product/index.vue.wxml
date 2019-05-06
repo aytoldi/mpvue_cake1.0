@@ -1,0 +1,16 @@
+<template name="720521ee">
+  <view class="_ul data-v-5b5b1330 list">
+    <view wx:key="index" key="{{index}}" wx:for="{{product}}" wx:for-index="index" wx:for-item="item" class="_li data-v-5b5b1330">
+      <view class="_div data-v-5b5b1330 imgNav" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}">
+        <image src="{{item.url}}" mode="widthFix" alt class="_img data-v-5b5b1330"></image>
+      </view>
+      <view class="_div data-v-5b5b1330 title">
+        <view class="_strong data-v-5b5b1330">{{item.title}}</view> <label class="_span data-v-5b5b1330">{{item.price}}</label>
+      </view>
+      <view class="_div data-v-5b5b1330 cart-icons"></view>
+      <view class="_div data-v-5b5b1330 desc">
+        <view class="_strong data-v-5b5b1330">{{item.desc}}</view>
+      </view>
+    </view>
+  </view>
+</template>

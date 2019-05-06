@@ -1,0 +1,9 @@
+<template name="1e926b8a">
+  <view class="_div data-v-388a408a header">
+    <view class="_div data-v-388a408a map"><label class="_span data-v-388a408a icon icon-map-pin"></label> <label class="_span data-v-388a408a">杭州</label></view>
+    <view class="_div data-v-388a408a search">
+      <view class="_div data-v-388a408a icons"><label class="_span data-v-388a408a icon icon-search"></label></view> <input type="text" class="_input data-v-388a408a" />
+    </view>
+    <view class="_div data-v-388a408a user"><label class="_span data-v-388a408a icon icon-shopping-cart1" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></label></view>
+  </view>
+</template>

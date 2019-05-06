@@ -1,0 +1,53 @@
+<import src="/components/swiper/index.vue.wxml" /><template name="4cbeac6e">
+  <view class="_div data-v-3065022e"><template data="{{...$root[$kk+'0'], $root}}" is="5e5707b5"></template>
+    <view class="_div data-v-3065022e container" wx:if="{{isFlag}}">
+      <view class="_div data-v-3065022e item">
+        <view class="_p data-v-3065022e title">{{name}}</view>
+        <view class="_p data-v-3065022e desc">{{title}}</view>
+        <view class="_p data-v-3065022e price"><label class="_span data-v-3065022e">￥{{price}}</label></view>
+        <view class="_ul data-v-3065022e public">
+          <view class="_li data-v-3065022e"><label class="_span data-v-3065022e">新品</label></view>
+          <view class="_li data-v-3065022e"><label class="_span data-v-3065022e">人气</label></view>
+          <view class="_li data-v-3065022e"><label class="_span data-v-3065022e">生日</label></view>
+        </view>
+        <view class="_ul data-v-3065022e desc-img">
+          <view class="_li data-v-3065022e">
+            <view class="_div data-v-3065022e img img1"></view> <label class="_span data-v-3065022e text">樱桃酒</label>
+          </view>
+          <view class="_li data-v-3065022e">
+            <view class="_div data-v-3065022e img img2"></view> <label class="_span data-v-3065022e text">樱桃酒</label>
+          </view>
+        </view>
+        <view class="_div data-v-3065022e desc-container">
+          <view class="_div data-v-3065022e desc-content">
+            <view class="_p data-v-3065022e desc-title">已选择：2.0磅</view>
+          </view>
+          <view class="_ul data-v-3065022e desc-content-img">
+            <view class="_li data-v-3065022e">
+              <view class="_div data-v-3065022e d-img d-img1"></view> <label class="_span data-v-3065022e">{{size}}</label>
+            </view>
+            <view class="_li data-v-3065022e">
+              <view class="_div data-v-3065022e d-img d-img2"></view> <label class="_span data-v-3065022e">{{tool}}</label>
+            </view>
+            <view class="_li data-v-3065022e">
+              <view class="_div data-v-3065022e d-img d-img3"></view> <label class="_span data-v-3065022e">{{person}}</label>
+            </view>
+            <view class="_li data-v-3065022e">
+              <view class="_div data-v-3065022e d-img d-img4"></view> <label class="_span data-v-3065022e">{{action}}</label>
+            </view>
+          </view>
+          <view class="_div data-v-3065022e ifs"><label class="_span data-v-3065022e if-img"></label> <label class="_span data-v-3065022e f-title">{{selicye}}</label></view>
+        </view>
+      </view>
+      <view class="_div data-v-3065022e desc-list">
+        <view wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item" class="_li data-v-3065022e">
+          <image src="{{item.url}}" mode="widthFix" alt class="_img data-v-3065022e"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_ul data-v-3065022e footer">
+      <view class="_li data-v-3065022e items1">立即购买</view>
+      <view class="_li data-v-3065022e items2" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">加入购物车</view>
+    </view>
+  </view>
+</template>

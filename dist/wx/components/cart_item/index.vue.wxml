@@ -1,0 +1,20 @@
+<template name="5722f9d1">
+  <view class="_div data-v-42be470b page">
+    <view class="_ul data-v-42be470b list">
+      <view wx:key="index" key="{{index}}" wx:for="{{product}}" wx:for-index="index" wx:for-item="item" class="_li data-v-42be470b">
+        <view class="_div data-v-42be470b img">
+          <image src="{{item.url}}" alt class="_img data-v-42be470b"></image>
+        </view>
+        <view class="_div data-v-42be470b content">
+          <view class="_h3 data-v-42be470b">{{item.title}}</view>
+          <view class="_h3 data-v-42be470b">{{item.desc}}</view>
+          <view class="_h3 data-v-42be470b"><label class="_span data-v-42be470b up">规格</label> <label class="_span data-v-42be470b up">{{item.size}}</label></view>
+          <view class="_div data-v-42be470b price">
+            <view class="_div data-v-42be470b text">{{item.price}}</view>
+            <view class="_div data-v-42be470b action"><label bindtap="handleProxy" class="_span data-v-42be470b btn {{item.num > 1 ? 'icon-minus' : 'icon-trash-2'}}" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}"></label> <label class="_span data-v-42be470b number">{{item.num}}</label> <label class="_span data-v-42be470b btn icon-plus" bindtap="handleProxy" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}"></label></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

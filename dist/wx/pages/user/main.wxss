@@ -1,0 +1,61 @@
+@import "../../common/vendor.wxss";
+
+page.data-v-571744b0 {
+  background-color: red;
+}
+.container.data-v-571744b0 {
+  width: 100%;
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+.container .list.data-v-571744b0 {
+  width: inherit;
+}
+.container .list .item.data-v-571744b0 {
+  margin-bottom: 30rpx;
+}
+.container .list .item .input.data-v-571744b0 {
+  border: 2rpx solid #442818;
+  width: 100%;
+  display: flex;
+  border-radius: 8rpx;
+  height: 86rpx;
+}
+.container .list .item .input ._span.data-v-571744b0 {
+  flex: 0 0 80rpx;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 86rpx;
+  font-size: 50rpx;
+}
+.container .list .item .input .icon-lock-closed-outline.data-v-571744b0 {
+  font-size: 60rpx;
+}
+.container .list .item .input ._input.data-v-571744b0 {
+  flex: 1;
+  padding-right: 20rpx;
+  box-sizing: border-box;
+  height: 86rpx;
+  line-height: 86rpx;
+  font-size: 30rpx;
+}
+.container .list .last-btn.data-v-571744b0 {
+  font-size: 34rpx;
+  line-height: 86rpx;
+  border: 2rpx solid #442818;
+  background: #442818;
+  color: #fff;
+  width: 100%;
+  border-radius: 8rpx;
+  height: 86rpx;
+  text-align: center;
+  cursor: pointer;
+}
+.toast-panel.data-v-571744b0 {
+  padding: 20rpx 30rpx;
+  background: #442818;
+  color: #fff;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+  margin-top: 100rpx;
+}

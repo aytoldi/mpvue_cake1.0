@@ -1,0 +1,16 @@
+<template name="58476337">
+  <view class="_ul data-v-3cef2777 list">
+    <view class="_li data-v-3cef2777">
+      <view class="_div data-v-3cef2777 one"></view> <label class="_span data-v-3cef2777">蛋糕</label>
+    </view>
+    <view class="_li data-v-3cef2777">
+      <view class="_div data-v-3cef2777 tow"></view> <label class="_span data-v-3cef2777">面包</label>
+    </view>
+    <view class="_li data-v-3cef2777">
+      <view class="_div data-v-3cef2777 threed"></view> <label class="_span data-v-3cef2777">下午茶</label>
+    </view>
+    <view class="_li data-v-3cef2777">
+      <view class="_div data-v-3cef2777 four"></view> <label class="_span data-v-3cef2777">专业专区</label>
+    </view>
+  </view>
+</template>

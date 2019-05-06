@@ -1,0 +1,14 @@
+<template name="72079728">
+  <view class="_div data-v-571744b0 container">
+    <view class="_div data-v-571744b0 list">
+      <view class="_div data-v-571744b0 item">
+        <view class="_div data-v-571744b0 input"><label class="_span data-v-571744b0 icon-user11"></label> <input type="text" value="{{name}}" bindinput="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-571744b0" /></view>
+      </view>
+      <view class="_div data-v-571744b0 item">
+        <view class="_div data-v-571744b0 input"><label class="_span data-v-571744b0 icon-lock-closed-outline"></label> <input type="text" value="{{password}}" bindinput="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_input data-v-571744b0" /></view>
+      </view>
+      <view class="_div data-v-571744b0 last-btn" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">提交</view>
+    </view>
+    <view class="_div data-v-571744b0 toast-panel" wx:if="{{flag}}">{{content}}</view>
+  </view>
+</template>

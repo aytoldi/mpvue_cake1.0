@@ -1,0 +1,6 @@
+<template name="2389c407">
+  <view class="_div data-v-66091a7e _title">
+    <view class="_p data-v-66091a7e left">{{title}}</view>
+    <view class="_p data-v-66091a7e right"> 更多 <label class="_span data-v-66091a7e icon-chevron-right" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></label></view>
+  </view>
+</template>

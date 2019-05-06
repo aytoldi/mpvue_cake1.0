@@ -1,0 +1,15 @@
+<import src="/components/header/index.vue.wxml" />
+<import src="/components/swiper/index.vue.wxml" />
+<import src="/components/nav_title/index.vue.wxml" />
+<import src="/components/nav_list/index.vue.wxml" />
+<import src="/components/product_title/index.vue.wxml" />
+<import src="/components/product/index.vue.wxml" /><template name="d3b9bb9e">
+  <view class="_div data-v-86cc95aa page">
+    <view class="_div data-v-86cc95aa header"><template data="{{...$root[$kk+'0'], $root}}" is="1e926b8a"></template></view>
+    <view class="_div data-v-86cc95aa swiper-layout"><template data="{{...$root[$kk+'1'], $root}}" is="5e5707b5"></template></view>
+    <view class="_div data-v-86cc95aa nav_title"><template data="{{...$root[$kk+'2'], $root}}" is="4649ce8a"></template></view>
+    <view class="_div data-v-86cc95aa nav_list"><template data="{{...$root[$kk+'3'], $root}}" is="58476337"></template></view>
+    <view class="_div data-v-86cc95aa product"><template data="{{...$root[$kk+'4'], $root}}" is="2389c407"></template> <template data="{{...$root[$kk+'5'], $root}}" is="720521ee"></template></view>
+    <view class="_div data-v-86cc95aa product"><template data="{{...$root[$kk+'6'], $root}}" is="2389c407"></template> <template data="{{...$root[$kk+'7'], $root}}" is="720521ee"></template></view>
+  </view>
+</template>

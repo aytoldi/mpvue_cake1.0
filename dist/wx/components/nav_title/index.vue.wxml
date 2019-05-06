@@ -1,0 +1,13 @@
+<template name="4649ce8a">
+  <view class="_ul data-v-6f133416 nav">
+    <view class="_li data-v-6f133416"><label class="_span data-v-6f133416 icon-git-merge"></label>
+      <view class="_strong data-v-6f133416">新人首单赠小切块</view>
+    </view>
+    <view class="_li data-v-6f133416 center"><label class="_span data-v-6f133416 icon-git-merge"></label>
+      <view class="_strong data-v-6f133416">满100包邮</view>
+    </view>
+    <view class="_li data-v-6f133416"><label class="_span data-v-6f133416 icon-git-merge"></label>
+      <view class="_strong data-v-6f133416">全程冷链配送</view>
+    </view>
+  </view>
+</template>

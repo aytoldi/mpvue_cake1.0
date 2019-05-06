@@ -1,0 +1,123 @@
+@import "../../common/vendor.wxss";
+
+.foo.data-v-8916f286 {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 88rpx;
+  background: #fff;
+  z-index: 1000000;
+  box-shadow: 0 -4rpx 8rpx 0 rgba(0, 0, 0, 0.1);
+}
+.foo ._ul.data-v-8916f286 {
+  width: 100%;
+  display: flex;
+}
+.foo ._ul ._li.data-v-8916f286 {
+  line-height: 88rpx;
+}
+.foo ._ul .left.data-v-8916f286 {
+  flex: 1;
+  text-align: center;
+}
+.foo ._ul .left .title.data-v-8916f286 {
+  font-size: 28rpx;
+  color: #969696;
+}
+.foo ._ul .left .title.data-v-8916f286:after {
+  content: ":";
+  margin: 0 5rpx;
+}
+.foo ._ul .left .price.data-v-8916f286 {
+  font-size: 32rpx;
+  color: #442818;
+  font-weight: bold;
+}
+.foo ._ul .left .price.data-v-8916f286:before {
+  content: "\FFE5";
+}
+.foo ._ul .right.data-v-8916f286 {
+  flex: 0 0 188rpx;
+  background: #442818;
+  color: #fff;
+  text-align: center;
+}
+.foo ._ul .right ._span.data-v-8916f286 {
+  font-size: 28rpx;
+}
+.page.data-v-42be470b {
+  margin-bottom: 150rpx;
+}
+.list.data-v-42be470b {
+  width: 100%;
+  box-sizing: border-box;
+}
+.list ._li.data-v-42be470b {
+  width: 100%;
+  display: flex;
+  background: #fff;
+}
+.list ._li .img.data-v-42be470b {
+  flex: 0 0 220rpx;
+  margin: 0 40rpx;
+  margin-bottom: 39rpx;
+}
+.list ._li .img ._img.data-v-42be470b {
+  width: 100%;
+  height: 240rpx;
+}
+.list ._li .content.data-v-42be470b {
+  margin-top: 39rpx;
+  height: 210rpx;
+  flex: 1;
+}
+.list ._li .content ._h3.data-v-42be470b {
+  color: #442818;
+  font-size: 24rpx;
+}
+.list ._li .content .up.data-v-42be470b {
+  color: #969696;
+  font-size: 22rpx;
+}
+.list ._li .content .delete.data-v-42be470b {
+  text-align: right;
+}
+.list ._li .content .price.data-v-42be470b {
+  margin-top: 24rpx;
+  height: 50rpx;
+}
+.list ._li .content .price .text.data-v-42be470b {
+  color: #969696;
+  float: left;
+  font-size: 22rpx;
+  line-height: 50rpx;
+  vertical-align: middle;
+}
+.list ._li .content .price .action.data-v-42be470b {
+  float: right;
+  width: 160rpx;
+  margin-right: 40rpx;
+}
+.list ._li .content .price .action ._span.data-v-42be470b {
+  float: left;
+}
+.list ._li .content .price .action .btn.data-v-42be470b {
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  text-align: center;
+  background: #f0f0f0;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  color: #442818;
+}
+.list ._li .content .price .action .number.data-v-42be470b {
+  width: 60rpx;
+  height: 50rpx;
+  background: #f7f7f7;
+  color: #969696;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 30rpx;
+}
